@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Main" />
+    <SEO title="Conversor de Tallas" />
     <h1>Transforme tallas entre marcas</h1>
     <p>Usando las tablas abajo</p>
 
