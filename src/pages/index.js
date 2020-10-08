@@ -1,6 +1,6 @@
 import React from "react"
 
-
+import ViewCounter from '../components/ViewCounter';
 import Layout from "../components/layout"
 
 import SEO from "../components/seo"
@@ -14,7 +14,7 @@ const IndexPage = () => (
 
     <div className='truehead' > <h2>Tallas UK</h2></div>
     <table >
-      tbody
+    
     <tr><th>Medida del Pie</th><th>Adidas UK</th><th>Nike UK Hombre</th><th>Nike UK Mujer</th></tr>
      <tr><td>21.6 cm</td><td>NA</td><td>3,5</td><td>2,5</td></tr>
      <tr><td>22.1 cm</td><td>3.5</td><td>4</td><td>3</td></tr>
@@ -98,7 +98,7 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       
     </div>
-    <img src="https://views.show/svg?key=mainpage" />
+    <ViewCounter id="index" />
 
   </Layout>
 )
