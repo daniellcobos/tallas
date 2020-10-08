@@ -39,14 +39,13 @@ module.exports = {
         resolve: 'gatsby-plugin-firebase',
         options: {
           credentials: {
-            apiKey: "AIzaSyAtJ7iJz8ToDdmISMSqTZTJMSF4gMViItQ",
-    authDomain: "ferrous-depth-251804.firebaseapp.com",
-    databaseURL: "https://ferrous-depth-251804.firebaseio.com",
-    projectId: "ferrous-depth-251804",
-    storageBucket: "ferrous-depth-251804.appspot.com",
-    messagingSenderId: "488377808646",
-    appId: "1:488377808646:web:a9bfa9cf9184e1bc415087",
-    measurementId: "G-5HBXZP6LJC"
+            apiKey: process.env.API_KEY,
+            authDomain: process.env.AUTH_DOMAIN,
+            databaseURL: 'https://ferrous-depth-251804.firebaseio.com',
+            projectId: process.env.PROJECT_ID,
+            storageBucket: process.env.STORAGE_BUCKET,
+            messagingSenderId: process.env.MESSAGING_SENDER_ID,
+            appId: process.env.APP_ID,
           },
         },
       
