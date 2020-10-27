@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Conversor de Tallas" />
+    <SEO title="Conversor de Tallas" description='tallas adidas a nike, adidas to nike '/>
     <h1>Transforme tallas entre marcas</h1>
     <p>Usando las tablas abajo</p>
 

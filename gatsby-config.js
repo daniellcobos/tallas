@@ -3,7 +3,7 @@ require("dotenv").config({
 })
 module.exports = {
   siteMetadata: {
-    title: `Conversor de tallas de zapatos`,
+    title: `Conversor de tallas de zapatos `,
     description: `Convierta tallas de zapatos de Adidas a Nike`,
     author: `@snowcastervz`,
   },
